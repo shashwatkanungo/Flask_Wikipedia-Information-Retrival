@@ -1,0 +1,96 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+    background: #2980b9;
+}
+
+
+.result {
+    margin-top: 20px;
+}
+
+.result h2 {
+    color: #2c3e50;
+}
+
+.result p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.result a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #3498db;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.result a:hover {
+    background: #2980b9;
+}
+
+
+.error {
+    color: #e74c3c;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+}
